@@ -15,4 +15,5 @@ def key_for_min_value(hash)
      end
    end
    smallest_key
+   puts "#{smallest_value} #{smallest_key}"
 end
