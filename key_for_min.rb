@@ -4,15 +4,15 @@
 def key_for_min_value(hash)
    smallest_value = 1000000000
    smallest_key = "start"
-   if hash = ""
-     smallest_key = nil
-   else
+   if hash != ""
      hash.each do |key, value|
        if value < smallest_value
          smallest_value = value
          smallest_key = "test"
        end
      end
+   else
+      smallest_key = nil
    end
    smallest_key
 end
