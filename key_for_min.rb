@@ -3,7 +3,7 @@
 
 def key_for_min_value(hash)
    smallest_value = 1000000000
-   smallest_key = ""
+   smallest_key = "start"
    if hash = ""
      smallest_key = nil
    else
