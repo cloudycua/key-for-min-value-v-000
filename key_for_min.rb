@@ -5,7 +5,7 @@ def key_for_min_value(hash)
    smallest_value = Float::INFINITY
    smallest_key = {}
    if hash = ""
-     nil
+     smallest_key = nil
    else
      hash.each do |key, value|
        if value < smallest_value
