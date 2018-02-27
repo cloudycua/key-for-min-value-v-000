@@ -3,7 +3,7 @@
 
 def key_for_min_value(hash)
    smallest_value = 1000000000
-   smallest_key = "start"
+   smallest_key = ""
    if hash != ""
      hash.each do |key, value|
        if value < smallest_value
